@@ -79,6 +79,13 @@ background-position: bottom right, left;
 }
 /* Image  */
 
+.image {
+width: 830px;
+position: relative;
+left: 200px;
+
+}
+
 /* Main Section  */
 
 main {
@@ -94,10 +101,10 @@ padding: 130px 150px;
 text-align: center;
 }
 .section-t {
-
+text-align: center;
 font-weight: 700;
 font-size: 35px;
-margin-bottom: 30px;
+margin-bottom: 50px;
 
 }
 .section-d {
@@ -148,4 +155,59 @@ margin-bottom: 20px;
 }
 .skill-description {
    color: #757575; 
+}
+
+/* Resume Section  */
+.Resume Section {
+    margin-top: 130px;
+}
+/* Resume Style  */
+.resume-contant{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-item .titel{
+font-weight: 700;
+font-size: 25px;
+color: #474747;
+margin-bottom: 10px;
+}
+.resume-item .sub-titel{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume-item .description{
+color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* Contuct Styles  */
+.contuct{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contuct .section-t{
+text-align: left;
+}
+.contuct input[type="text"], input[type="email"], textarea{
+margin-bottom: 24px;
+border: 0;
+width: 100%;
+padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contuct a{
+    text-decoration: none;
 }
