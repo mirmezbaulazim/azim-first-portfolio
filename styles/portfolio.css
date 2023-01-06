@@ -211,3 +211,8 @@ input{
 .contuct a{
     text-decoration: none;
 }
+
+/* Icon style  */
+.icon{
+    width: 50px;
+}
